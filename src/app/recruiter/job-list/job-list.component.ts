@@ -42,15 +42,15 @@ export class JobListComponent implements OnInit {
   ngOnInit(): void {
 
     this.columnDefs = [
-      { headerName: 'Job Title', field: 'title', width: 500 },
-      { headerName: 'Location', field: 'location', width: 200 },
-      { headerName: 'Expiry', field: 'expiry', width: 150 },
-      { headerName: 'Job Type', field: 'type', width: 150 },
-      { headerName: 'Responses', field: 'count', width: 150 },
+      { headerName: 'Job Title', field: 'title','text-align':'center', width: 500 },
+      { headerName: 'Location', field: 'location','text-align':'center', width: 200 },
+      { headerName: 'Expiry', field: 'expiry','text-align':'center', width: 150 },
+      { headerName: 'Job Type', field: 'type','text-align':'center', width: 150 },
+      { headerName: 'Responses', field: 'count','text-align':'center', width: 150 },
       {
         headerName: 'Social',
         cellStyle: {
-          display: 'flex', 'justify-content': 'space-around', 'align-items': 'center',
+          display: 'flex', 'justify-content': 'space-around', 'align-items': 'center','text-align':'center',
           'font-size': '14px'
         },
         template:
@@ -62,7 +62,7 @@ export class JobListComponent implements OnInit {
       {
         headerName: 'Actions',
         cellStyle: {
-          display: 'flex', 'justify-content': 'space-around', 'align-items': 'center',
+          display: 'flex', 'justify-content': 'space-around', 'align-items': 'center','text-align':'center',
           'font-size': '14px'
         },
         template:
