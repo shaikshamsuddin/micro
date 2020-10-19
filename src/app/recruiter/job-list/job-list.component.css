@@ -31,6 +31,7 @@
       justify-content: flex-end;
       margin-right: 25px;
       padding-top: 20px;
+      text-align: center;
   }
 
   .check-list  input {
