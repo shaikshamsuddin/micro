@@ -15,3 +15,9 @@
     z-index: 10;
     border-bottom: 1px solid #F5A134;
 }
+
+/* @media (min-width: 400px){
+    .main-cnt{
+        display: grid;
+    }
+} */

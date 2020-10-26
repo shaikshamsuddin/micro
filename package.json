@@ -23,6 +23,7 @@
     "@ng-bootstrap/ng-bootstrap": "^7.0.0",
     "ag-grid-angular": "^24.0.0",
     "ag-grid-community": "^24.0.0",
+    "angularx-social-login": "^3.2.2",
     "font-awesome": "^4.7.0",
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",

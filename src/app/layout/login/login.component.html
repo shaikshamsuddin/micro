@@ -24,7 +24,9 @@
               (click)="submit('loginForm')">Log In</button>
             <section class="googleBtn">
               <span class="icon" data-href="www.myrestos.com"></span>
-              <span style="padding: 0px 8px 0px 8px;">Sign in With Google</span>
+              <button type="submit" class="btn btn-primary" 
+              (click)="signInWithGoogle()">
+              <span style="padding: 0px 8px 0px 8px;">Sign in With Google</span></button>
             </section>
           </div>
           <p><span class="textbtn" (click)='check(false)'>Forget Password</span></p>
