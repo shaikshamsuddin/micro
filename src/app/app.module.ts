@@ -5,7 +5,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { SocialLoginModule, SocialAuthServiceConfig } from 'angularx-social-login';
 import {
-  GoogleLoginProvider,
+  GoogleLoginProvider
  } from 'angularx-social-login';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
@@ -13,6 +13,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RecruiterModule } from './recruiter/recruiter.module';
 import { LayoutModule } from './layout/layout.module';
+
+const googleLoginOptions = {
+  scope: 'profile email'
+};
 
 @NgModule({
   declarations: [
@@ -38,7 +42,7 @@ import { LayoutModule } from './layout/layout.module';
           {
             id: GoogleLoginProvider.PROVIDER_ID,
             provider: new GoogleLoginProvider(
-              '888173173318-epjlppjb37uk9udddo2qes1fgqaetf2e.apps.googleusercontent.com'
+              '888173173318-epjlppjb37uk9udddo2qes1fgqaetf2e.apps.googleusercontent.com', googleLoginOptions
             ),
           },
 
